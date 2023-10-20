@@ -1,0 +1,10 @@
+body {
+  background: linear-gradient(135deg, rgb(23, 2, 29), #07467d);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+button {
+  color:blue;  
+}
