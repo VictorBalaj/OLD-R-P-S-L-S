@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="RPSLS.css">
+  <title>R/P/S/L/S</title>
+</head>
+<body>
+<div class="flexBod">
+<div class="divv" id="title">ROCK - PAPER - SCISSORS - LIZARD - SPOCK</div>
+<div class="scr" id="score">
+<div class="scrItm" id="win">Wins: 0</div>
+<div id="loss">Losses: 0</div>
+<div class="scrItm" id="tie">Ties: 0</div>
+</div>
+<div class="screen" id="screen">
+<div class="divv" id="fText">What happens</div>
+<div class="divv" id="sText">WIN / LOSE</div>
+</div>
+<div class="divv">
+  <button class="moves" onclick=compM();rockM();console.log(roboMove)>ROCK</button>
+  <button class="moves" onclick=compM();paperM();console.log(roboMove)>PAPER</button>
+  <button class="moves" onclick=compM();scissorsM();console.log(roboMove)>SCISSORS</button>
+  <button class="moves" onclick=compM();lizardM();console.log(roboMove)>LIZARD</button>
+  <button class="moves" onclick=compM();spockM();console.log(roboMove)>SPOCK</button>
+</div>
+</div>
+<script src="RPSLS.js"></script>
+</body>
+</html>
